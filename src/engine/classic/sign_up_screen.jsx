@@ -72,9 +72,9 @@ const Component = ({ i18n, model }) => {
       {ssoNotice}
       {tabs}
       <div>
-        {social}
-        {separator}
         {db}
+        {separator}
+        {social}
       </div>
     </div>
   );
