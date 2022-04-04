@@ -58,7 +58,7 @@ const Component = ({ i18n, model }) => {
       i18n={i18n}
       instructions={i18n.html(signUpInstructionsKey)}
       model={model}
-      onlyEmail={sso}
+      onlyEmail={true}
       passwordInputPlaceholder={i18n.str('passwordInputPlaceholder')}
       passwordStrengthMessages={i18n.group('passwordStrength')}
       usernameInputPlaceholder={i18n.str('usernameInputPlaceholder')}
